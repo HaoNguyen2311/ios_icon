@@ -18,7 +18,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <link rel="icon" href={`/favicon.ico`} />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+
+        <link
+          rel="apple-touch-icon"
+          sizes="any"
+          href={`/apple-touch-icon-57x57.png`}
+        />
 
         <link
           rel="apple-touch-icon"
@@ -64,13 +70,6 @@ export default function RootLayout({
           rel="apple-touch-icon"
           sizes="180x180"
           href={`/apple-touch-icon-180x180.png`}
-        />
-
-        <link rel="apple-touch-icon" href={`/apple-touch-icon.png`} />
-
-        <link
-          rel="apple-touch-icon-precomposed"
-          href={`/apple-touch-icon-precomposed.png`}
         />
 
         {/* Android */}
