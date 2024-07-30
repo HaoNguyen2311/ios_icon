@@ -21,54 +21,54 @@ export default function RootLayout({
         <link
           rel="apple-touch-icon"
           sizes="57x57"
-          href={`/ios/apple-touch-icon-57x57.png`}
+          href={`/apple-touch-icon-57x57.png`}
         />
         <link
           rel="apple-touch-icon"
           sizes="60x60"
-          href={`/ios/apple-touch-icon-60x60.png`}
+          href={`/apple-touch-icon-60x60.png`}
         />
         <link
           rel="apple-touch-icon"
           sizes="72x72"
-          href={`/ios/apple-touch-icon-72x72.png`}
+          href={`/apple-touch-icon-72x72.png`}
         />
         <link
           rel="apple-touch-icon"
           sizes="76x76"
-          href={`/ios/apple-touch-icon-76x76.png`}
+          href={`/apple-touch-icon-76x76.png`}
         />
         <link
           rel="apple-touch-icon"
           sizes="114x114"
-          href={`/ios/apple-touch-icon-114x114.png`}
+          href={`/apple-touch-icon-114x114.png`}
         />
         <link
           rel="apple-touch-icon"
           sizes="120x120"
-          href={`/ios/apple-touch-icon-120x120.png`}
+          href={`/apple-touch-icon-120x120.png`}
         />
         <link
           rel="apple-touch-icon"
           sizes="144x144"
-          href={`/ios/apple-touch-icon-144x144.png`}
+          href={`/apple-touch-icon-144x144.png`}
         />
         <link
           rel="apple-touch-icon"
           sizes="152x152"
-          href={`/ios/apple-touch-icon-152x152.png`}
+          href={`/apple-touch-icon-152x152.png`}
         />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href={`/ios/apple-touch-icon-180x180.png`}
+          href={`/apple-touch-icon-180x180.png`}
         />
 
-        <link rel="apple-touch-icon" href={`/ios/apple-touch-icon.png`} />
+        <link rel="apple-touch-icon" href={`/apple-touch-icon.png`} />
 
         <link
           rel="apple-touch-icon-precomposed"
-          href={`/ios/apple-touch-icon-precomposed.png`}
+          href={`/apple-touch-icon-precomposed.png`}
         />
 
         {/* Android */}
@@ -76,13 +76,13 @@ export default function RootLayout({
           rel="icon"
           type="image/png"
           sizes="192x192"
-          href={`/android/android-chrome-192x192.png`}
+          href={`/android-chrome-192x192.png`}
         />
         <link
           rel="icon"
           type="image/png"
           sizes="512x512"
-          href={`/android/android-chrome-512x512.png`}
+          href={`/android-chrome-512x512.png`}
         />
       </Head>
       <body className={inter.className}>{children}</body>
